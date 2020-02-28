@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/xxxserxxx/gotop/devices"
+	"github.com/xxxserxxx/gotop/v3/devices"
 )
 
 func Init() {
