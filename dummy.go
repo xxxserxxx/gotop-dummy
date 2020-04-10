@@ -1,4 +1,4 @@
-package main
+package dummy
 
 import (
 	"math/rand"
@@ -7,7 +7,7 @@ import (
 	"github.com/xxxserxxx/gotop/v3/devices"
 )
 
-func Init() {
+func init() {
 	devices.RegisterTemp(updateTemp)
 	devices.RegisterMem(updateMem)
 	devices.RegisterCPU(updateUsage)
